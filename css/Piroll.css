@@ -93,7 +93,6 @@ ul {
 header {
     min-height: 80vh;
     background-image: url("../images/Landing-Photo.webp");
-    background-attachment: fixed;
     background-position-y: -200px;
     background-size: cover;
     background-color: var(--O-white-c);
@@ -562,7 +561,7 @@ header .container .text button:hover {
         overflow-x: scroll;
     }
     .clients::-webkit-scrollbar {
-        width: 0px;
+        width: 0;
     }
     .clients .container {
         width: 230%;
